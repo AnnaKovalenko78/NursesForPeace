@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 112%; /* 16px = 100% = 1em */
+}
+
+div {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+h1 {
+  color: white;
+  font-size: 3.2rem;
+  margin: 50px 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+a {
+  color: white;
+  position: relative;
+  padding: 0 1% 0;
+}
+
+.programmer {
+  color: white;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.top-container {
+  background-color: #0057b7;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #ffd700;
+  color: #0057b7;
+}
+
+
+.bottom-container {
+  background-color: black;
+  color: white;
+  padding: 40px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.sign {
+  display: inline-block;
+  height: 3%;
+  width: 3%;
+  border: 0;
+  margin: 0;
+  position: relative;
+  top: 5px;
+  right: 140px;
+}
+
+.mountain {
+  display: inline-block;
+  margin-bottom: 0;
+  border: 0;
+  position: relative;
+  top: 5px;
+}
+
+.tent {
+  display: inline-block;
+  height: 5%;
+  width: 5%;
+  border: 0;
+  margin: 0;
+  position: relative;
+  top: 15px;
+  left: 100px;
+}
+
+.profile-pic {
+  margin: 20px 0 0;
+  width: 20%;
+  height: 20%;
+}
+
+.profile {
+  width: 50%;
+  line-height: 1.5;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: white;
+  font-size: 24px;
+  background: #7ECA9C;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  top: 15px;
+}
+
+.btn:hover {
+  background: #CCFFBD;
+  text-decoration: none;
+  color: #40394A;
+}
+
+.code-skill {
+  float: left;
+  margin: 0 30px 0 0;
+  height: 15%;
+  width: 15%;
+}
+
+.skill-row {
+  text-align: left;
+  display: inline-block;
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.bottom-skill-image {
+  float: right;
+  margin: 0 0 0 30px;
+  height: 15%;
+  width: 15%;
+  right: 280px;
+}
+
+.skill-desc {
+  clear: both;
+}
+
+
+.footer-link {
+  color: #40394A;
+}
+
+.footer-link:hover {
+  color: white;
+  opacity: 0.5;
+}
+.copyright {
+  margin-top: 30px;
+  font-size: 0.85rem;
+}
